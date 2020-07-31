@@ -1,0 +1,261 @@
+html {
+  --blue: #159ce4;
+  --lgt-blue: #67cff3;
+  --drk-blue: #147ec1;
+  --black: #32383c;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.google-header{
+	width: 100%;
+	max-height: 500px;
+	font-family: arial,sans-serif;
+	float: right;
+}
+.google-header img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+.gmail-img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-right: 15px;
+	margin-top: 20px;
+	cursor: pointer;;
+	float: right;;
+}
+.gmail-img:hover
+{
+	border: solid 0.1px grey;
+	border-radius: 60%;
+
+}
+.header-icons{
+	float: right;
+	width: 200px;
+	margin-top: 28px;
+	margin-right: 10px
+	
+}
+
+.header-icons .fa-th
+ {
+ 	height:60px;
+	font-size: 20px;
+	margin-top: 5px
+	margin-right:20px;
+	float: right;
+	color: grey;
+	cursor: pointer;
+}
+.header-icons .fa-th:hover{
+
+	color: black;
+}
+.header-icons a{
+	float: right;
+	margin-right: 15px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+}
+.header-icons a:hover{
+	color: grey;
+}
+
+.google-search{
+	font-family: sans-serif;
+	padding:10px;
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.google-image img{
+	margin: 100px auto 10px;
+	width: 272px;
+	cursor: pointer;
+}
+.input-group {
+	margin:13px auto 10px;
+	border-radius: 20px;
+	max-width: 550px;
+	background-color: #f5f5f5;
+}
+.form-control{
+	border: none!important;
+	border-radius: 20px!important;
+	background-color: #f5f5f5!important;
+}
+.input-group-text{
+	background: transparent!important;
+	border: none!important;
+}
+
+.input-group .fa-microphone{
+	color: #007bff;
+	cursor: pointer;
+}
+.input-group .fa-search{
+	color: grey
+	right:60%;
+}
+.form-control:focus{
+	box-shadow: none!important;
+
+}
+
+#Search-icon{
+	float: left;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  margin: 30px 0;
+  position: relative;
+  width: 482px;
+}
+
+
+.search-bar input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-radius: 100px;
+  padding: 0 50px;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
+  font-size: 18px;
+  transition: box-shadow .1s;
+}
+
+.search-bar input:hover {
+  box-shadow: 0 0 10px -4px #888888;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  display: flex;
+  font-size: 20px;
+  color: #888888;
+}
+
+.search-bar .search-icon.right {
+  right: 0;
+}
+.search-icon .fa-microphone{
+	cursor: pointer;
+	color: #007bff;
+}
+.search-info {
+  font-size: 15px;
+}
+.search-buttons {
+  display: flex;
+}
+
+.search-buttons a {
+  text-decoration: none;
+  margin-right: 15px;
+  background-color: #ececec;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.search-buttons input {
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color:#f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family:arial,sans-serif;
+  font-size:14px;
+  height:36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  padding:0 16px;
+  margin: 11px 4px;
+  line-height: 27px;
+}
+
+.search-buttons input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}
+
+.search-buttons input:active {
+  color: var(--drk-blue);
+}
+
+#languages
+{
+	font-size:small;
+	margin-bottom:24px;
+}
+#Lang{
+	display:inline-block;
+	line-height:28px;
+}
+#Lang a{
+	padding:0 3px;
+}
+
+.bottom-bar {
+position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  background:#f2f2f2;
+  width: 100%;
+  border-top:1px solid #e4e4e4;
+  bottom: 0;
+}
+.bar-left {
+  display: flex;
+  align-items: center;
+}
+
+.bar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: grey;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.menu a:hover {
+	color: grey;
+  text-decoration: underline;
+}
